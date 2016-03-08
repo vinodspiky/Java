@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.Enum&apos; to &apos;AdvancedJava/src&apos;&#x0D;&#x0A;- Original project: &apos;OfficeWork&apos;&#x0D;&#x0A;- Destination element: &apos;AdvancedJava/src&apos;&#x0D;&#x0A;- Original element: &apos;OfficeWork/src/com.Enum&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=AdvancedJava/src" element1="/src&lt;com.Enum" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1457481300958" version="1.0"/>
+</session>
