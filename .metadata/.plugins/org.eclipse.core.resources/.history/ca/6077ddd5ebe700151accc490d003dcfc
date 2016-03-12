@@ -1,0 +1,31 @@
+import java.io.File;
+
+
+public class FilesNameShow {
+
+	public static void main(String[] args) {
+		 int cDir=0;
+		 int cHidden=0;
+		 int cFile=0;
+		File directory=new File("C:/Users/vchou5");
+		File [] files=directory.listFiles();
+		for(File file:files){
+			//System.out.println(file);
+			if(file.isDirectory())
+					cDir++;
+			if(file.isFile())
+					cFile++;
+			if(file.isHidden())
+					cHidden++;
+			
+		}
+		// TODO Auto-generated method stub
+		System.out.println(cDir);
+		System.out.println(cFile);
+
+		System.out.println(cHidden);
+
+
+	}
+
+}
